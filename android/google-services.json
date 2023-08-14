@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "119631132083",
+    "project_id": "nexoventapp",
+    "storage_bucket": "nexoventapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119631132083:android:0c5b5928eed9d97ceac7c6",
+        "android_client_info": {
+          "package_name": "com.example.nexo_vent_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119631132083-1lert09vh1hd4t3c5siimenpugka0om2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI4Ycabbpc5jYltUFy8z_KStooamwskYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119631132083-1lert09vh1hd4t3c5siimenpugka0om2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119631132083-4j5lc34l08he6gc8urshufr0up33je4t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nexoVentApp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119631132083:android:ec6adceb2afce66eeac7c6",
+        "android_client_info": {
+          "package_name": "com.exemple.nexo_vent_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119631132083-1lert09vh1hd4t3c5siimenpugka0om2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI4Ycabbpc5jYltUFy8z_KStooamwskYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119631132083-1lert09vh1hd4t3c5siimenpugka0om2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119631132083-4j5lc34l08he6gc8urshufr0up33je4t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nexoVentApp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

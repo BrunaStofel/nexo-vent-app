@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>119631132083-4j5lc34l08he6gc8urshufr0up33je4t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.119631132083-4j5lc34l08he6gc8urshufr0up33je4t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZJXDMv8ntOazjxeG2B8_eZ4qwnwiYFGY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>119631132083</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.nexoVentApp.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>nexoventapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nexoventapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:119631132083:ios:d049c3663a6d8799eac7c6</string>
+</dict>
+</plist>
