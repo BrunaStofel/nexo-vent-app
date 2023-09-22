@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Paciente extends StatefulWidget {
-  Paciente({Key? key}) : super(key: key);
+class Ventilador extends StatefulWidget {
+  Ventilador({Key? key}) : super(key: key);
 
     @override
-  _Paciente createState() => _Paciente();
+  _Ventilador createState() => _Ventilador();
 }
 
-class _Paciente extends State<Paciente> {
+class _Ventilador extends State<Ventilador> {
     @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,20 +23,21 @@ class _Paciente extends State<Paciente> {
               // flex: 1,
               SizedBox(
                 width: double.infinity,
-                height: 60,
+                height: 60, 
                 child: ElevatedButton(
                   onPressed: () {},
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
-                      Icon(Icons.person_add_alt_outlined),
-                      Text('Novo paciente'),
+                      Text('Ajuste inicial do ventilador'),
                     ]
                   )
                   ),
               ),
 
             const SizedBox(height: 30),
+
+              // flex: 1,
                SizedBox(
                 width: double.infinity,
                 height: 60,
@@ -45,8 +46,7 @@ class _Paciente extends State<Paciente> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
-                      Icon(Icons.dehaze),
-                      Text('Listar pacientes'),
+                      Text('Paciente está no ventilador'),
                     ]
                   )
                   ),
