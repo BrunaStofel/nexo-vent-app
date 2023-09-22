@@ -37,8 +37,6 @@ class _Paciente extends State<Paciente> {
               ),
 
             const SizedBox(height: 30),
-
-              // flex: 1,
                SizedBox(
                 width: double.infinity,
                 height: 60,

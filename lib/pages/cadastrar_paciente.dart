@@ -57,7 +57,7 @@ class _CadastrarPaciente extends State<CadastrarPaciente> {
           dataNascController.text = picked.toIso8601String();
         });
       }
-    }
+    } 
 
   @override
   Widget build(BuildContext context) {

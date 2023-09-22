@@ -18,7 +18,7 @@ class _SelecVentilador extends State<SelecVentilador> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Escolha o modelo do VM'),
+            Text('Escolha o modelo do VM'),   
 
             const SizedBox(height: 30),
 

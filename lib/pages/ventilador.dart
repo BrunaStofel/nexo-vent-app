@@ -23,7 +23,7 @@ class _Ventilador extends State<Ventilador> {
               // flex: 1,
               SizedBox(
                 width: double.infinity,
-                height: 60,
+                height: 60, 
                 child: ElevatedButton(
                   onPressed: () {},
                   child: Column(

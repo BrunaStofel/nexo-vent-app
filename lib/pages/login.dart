@@ -18,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   registrar() async {
-  }
+  } 
 
   @override
   Widget build(BuildContext context) {
