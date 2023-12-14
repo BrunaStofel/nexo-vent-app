@@ -20,7 +20,7 @@ class _StoragePageState extends State<StoragePage> {
 
   Future<XFile?> getImage() async {
     final ImagePicker _picker = ImagePicker();
-    XFile? image = await _picker.pickImage(source: ImageSource.gallery);
+    XFile? image = await _picker.pickImage(source: ImageSource.camera);
     return image;
   }
 
@@ -29,7 +29,7 @@ class _StoragePageState extends State<StoragePage> {
       print('path');
       print(Text(path));
       DateTime horario =  DateTime.now(); 
-      String ref = 'images/img-${horario.toString()}.jpeg';
+      String ref = 'pre/img-${horario.toString()}.jpeg';
       // String ref = 'images/img-${DateTime.now().toString()}.jpeg';
       print(horario);
 
@@ -84,14 +84,52 @@ class _StoragePageState extends State<StoragePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Firebase Storage'),
-        actions: [
-          IconButton(
-            onPressed: pickAndUploadImage, 
-            icon: const Icon(Icons.upload)),
-        ],
         elevation: 0,
       ),
-      body: Container(),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Tire uma foto do ventilador',
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                  color: Colors.grey[800],
+                  fontWeight: FontWeight.w900,
+                  fontStyle: FontStyle.italic,
+                  fontFamily: 'Open Sans',
+                  fontSize: 25),
+            ),
+            const SizedBox(height: 30),
+             const SizedBox(
+              child: Padding(
+              padding: EdgeInsets.all(30.0),
+                child: 
+                  Text('Dicas:\n\n 1. Enquadre o ventilador na câmera deixando-o alinhado; \n\n 2. Cuidado com o reflexo na tela do ventilador para que todas as informações fiquem visíveis;'),
+              )
+
+            ),
+
+
+            const SizedBox(height: 30),
+
+            SizedBox(
+              width: 100,
+              height: 60,
+              child: ElevatedButton(
+                onPressed: pickAndUploadImage,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: const [
+                    Icon(Icons.photo_camera),
+                  ]
+                )
+              ),
+            ),
+          ],)
+        
+      ),
     );
   }
 }
